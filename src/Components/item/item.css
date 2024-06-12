@@ -1,9 +1,21 @@
+
+
+.item img{
+    width: 900px;
+    height: 900px;
+   object-fit: cover; 
+    /* maintains aspect ratio and fits the image within the given dimensions */
+    border-radius: 5px;   
+}
+
 .item{
-    width: -200px;
-    height: -50px;
+    
+    width: 350;
+    
 }
 .item p{
-    margin: 6px 0px;
+    margin: 6px 6px;
+    color: black;
 }
 .item-avalability{
     display: flex;
