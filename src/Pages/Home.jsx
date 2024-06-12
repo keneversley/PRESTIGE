@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from '../Components/Hero/Hero'
 import Popular from '../Components/Popular/Popular'
 
-const Renter = () => {
+const Home = () => {
   return (
     <div>
         <Hero/>
@@ -10,4 +10,4 @@ const Renter = () => {
     </div>
   )
 }
-export default Renter
+export default Home

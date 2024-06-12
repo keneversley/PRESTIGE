@@ -11,15 +11,15 @@ export const Navbar =() => {
     <div className='navbar'>
         <div className='nav-logo'>
             <img src={logo} alt="" />
-            <p>RENTER</p>
+            <p>PRESTIGE</p>
         </div>
         <ul className='nav-menu'>
-        <li onClick={()=>{setMenu('renter')}}><Link style={{ textDecoration: 'none'}} to='/'>Renter</Link>{menu==='renter'?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('manor')}}><Link style={{ textDecoration: 'none'}} to='/manor'>Manor</Link>{menu==='manor'?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('celine')}}><Link style={{ textDecoration: 'none'}} to='/celine'>Celine</Link>{menu==='celine'?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('luna')}}><Link style={{ textDecoration: 'none'}} to='/luna'>Lunar</Link>{menu==='luna'?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('mira')}}><Link style={{ textDecoration: 'none'}} to='/mira'>Mira</Link>{menu==='mira'?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu('oasis')}}><Link style={{ textDecoration: 'none'}} to='/oasis'>Oasis</Link>{menu==='oasis'?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu('home')}}><Link style={{ textDecoration: 'none'}} to='/'>Home</Link>{menu==='home'?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu('nightlife')}}><Link style={{ textDecoration: 'none'}} to='/nightlife'>NightLife</Link>{menu==='nightlife'?<hr/>:<></>}</li>
+         <li onClick={()=>{setMenu('restaurants')}}><Link style={{ textDecoration: 'none'}} to='/restaurants'>Restaurants</Link>{menu==='restaurants'?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu('mansion')}}><Link style={{ textDecoration: 'none'}} to='/mansion'>Mansion/Villas/PentHouse</Link>{menu==='mansion'?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu('exoticcars')}}><Link style={{ textDecoration: 'none'}} to='/exoticcars'>Exotic Cars</Link>{menu==='exoticcars'?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu('yachts')}}><Link style={{ textDecoration: 'none'}} to='/yachts'>Yachts</Link>{menu==='yachts'?<hr/>:<></>}</li>
         </ul>
         <div className='nav-login-cart'>
             <Link to='/login'><button>Login</button></Link>

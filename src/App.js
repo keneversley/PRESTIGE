@@ -2,7 +2,7 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import  Renter  from './Pages/Renter';
+import  Home  from './Pages/Home';
 import { RenterCategory } from './Pages/RenterCategory';
 import { Product } from './Pages/Product';
 import { Cart } from './Pages/Cart';
@@ -15,12 +15,12 @@ function App() {
       <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Renter/>}>
-          <Route path='/manor' element={<RenterCategory category='manor'/>}/>
-          <Route path='/oasis' element={<RenterCategory category='oasis'/>}/>
-          <Route path='/mira' element={<RenterCategory category='mira'/>}/>
-          <Route path='/celine' element={<RenterCategory category='celine'/>}/>
-          <Route path='/luna' element={<RenterCategory category='luna'/>}/>
+        <Route path='/' element={<Home/>}>
+          <Route path='/restaurants' element={<RenterCategory category='restaurants'/>}/>
+          <Route path='/nightlife' element={<RenterCategory category='nightlife'/>}/>
+          <Route path='/mansion' element={<RenterCategory category='mansion'/>}/>
+          <Route path='/exoticcars' element={<RenterCategory category='exoticcars'/>}/>
+          <Route path='/yachts' element={<RenterCategory category='yachts'/>}/>
           <Route path='product' element={<Product/>}/>
           <Route path='productId' element={<Product/>}/>
         </Route>
