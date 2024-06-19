@@ -75,6 +75,14 @@ import { Blockchain_pool } from "./Blockchain pool.jpeg";
 import { Blockchain_shower1 } from "./Blockchain shower1.jpg";
 import { Blockchain_sink1 } from "./Blockchain sink1.jpg";
 import { Blockchain_stairs1 } from "./Blockchain stairs1.jpg";
+import { Yacht_blue } from "./Yacht_blue.jpeg";
+import { Yacht_haze } from "./Yacht_haze.jpeg";
+import {Yacht_hybird } from "./Yacht_hybird.jpeg";
+import { Yacht_silver } from "./Yacht_silver.jpg.webp";
+import { Yacht_sinderella } from "./Yacht_sinderella.jpeg";
+import { Yacht_tecnomar } from "./Yacht_tecnomar.jpeg";
+import { Yacht_killah} from "./Yacht_killah.jpg.webp";
+import { Yacht_lativa } from "./Yacht_lativa.jpg.webp";
 
 let all_product = [
 {
@@ -545,6 +553,56 @@ let all_product = [
     category: "blockchain",
     image: Blockchain_stairs1 ,
 },
+{
+    id: 79,
+    name: "192 Footer ",
+    category: "yachts",
+    image: Yacht_blue ,
+},
+{
+    id: 80,
+    name: "Mediterranean charter fleet ",
+    category: "yachts",
+    image: Yacht_haze ,
+},
+{
+    id: 81,
+    name: "hybrid superyacht ",
+    category: "yachts",
+    image: Yacht_hybird ,
+},
+{
+    id: 82,
+    name: "140-Foot Trimaran ‘Adastra ",
+    category: "yachts",
+    image: Yacht_silver ,
+},
+{
+    id: 83,
+    name: "51m hybrid ",
+    category: "yachts",
+    image: Yacht_sinderella ,
+},
+{
+    id: 84,
+    name: "The EVO 130 ",
+    category: "yachts",
+    image: Yacht_tecnomar ,
+},
+{
+    id: 85,
+    name: "50M/160 superyacht  ",
+    category: "yachts",
+    image: Yacht_killah ,
+},
+{
+    id: 86,
+    name: "171ft superyacht ",  
+    category: "yachts",
+    image: Yacht_lativa ,
+},
+
+
 
 ];
 
