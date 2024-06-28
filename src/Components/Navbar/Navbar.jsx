@@ -14,8 +14,8 @@ export const Navbar =() => {
             <p>PRESTIGE</p>
         </div>
         <ul className='nav-menu'>
-        <li onClick={()=>{setMenu('home')}}><Link style={{ textDecoration: 'none'}} to='/'>Home</Link>{menu==='home'?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu('nightlife')}}><Link style={{ textDecoration: 'none'}} to='/nightlife'>NightLife</Link>{menu==='nightlife'?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("home")}}><Link style={{ textDecoration: 'none'}} to='/'>Home</Link>{menu==="home"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("nightlife")}}><Link style={{ textDecoration: 'none'}} to='/nightlife'>Nightlife</Link>{menu==="nightlife"?<hr/>:<></>}</li>
          <li onClick={()=>{setMenu('restaurants')}}><Link style={{ textDecoration: 'none'}} to='/restaurants'>Restaurants</Link>{menu==='restaurants'?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu('mansion')}}><Link style={{ textDecoration: 'none'}} to='/mansion'>Mansion/Villas/PentHouse</Link>{menu==='mansion'?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu('exoticcars')}}><Link style={{ textDecoration: 'none'}} to='/exoticcars'>Exotic Cars</Link>{menu==='exoticcars'?<hr/>:<></>}</li>
