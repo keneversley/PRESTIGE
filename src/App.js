@@ -24,7 +24,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}>
         <Route path='/restaurant' element={<HomeCategory banner={restaurant_banner} category="restaurants"/>}/>
-          <Route path='/nightlifes' element={<HomeCategory banner={nightlife_banner} category="nightlife"/>}/>
+        <Route path='/nightlifes' element={<HomeCategory banner={nightlife_banner} category="nightlife"/>}/>
           <Route path='/mansions' element={<HomeCategory banner={mansion_banner} category="mansion"/>}/>
           <Route path='/exotics' element={<HomeCategory banner={exotic_banner} category="exotic"/>}/>
           <Route path='/yacht' element={<HomeCategory banner={yachts_banner} category="yacths"/>}/>

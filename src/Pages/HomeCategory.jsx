@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import './CSS/HomeCategory.css'
+import { HomeContext } from '../Context/HomeContext';
 
-export const HomeCategory = () => {
+
+export const HomeCategory = (props) => {
+  const {all_products} = useContext(HomeContext);
   return (
-    <div className='Home-category'>
+    <div className='home-category'>
+      <img src={props.banner} alt="" />
       
     </div>
   )
