@@ -40,7 +40,10 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "autoprefixer": "^10.4.19",
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
     "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4"
   }
