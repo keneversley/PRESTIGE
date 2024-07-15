@@ -4,9 +4,11 @@
 .navbar{
     
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
+    flex-wrap: nowrap;
 }
 .nav-logo{
     display: flex;
@@ -17,15 +19,31 @@
     color: #171717;
     font-size: 38px;
     font-weight: 600;
+    margin: 0;
 }
+
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .nav-toggle .hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+  }
+  
 .nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 50px;
+    gap: 30px;
     color: #626262;
     font-size: 20px;
     font-weight: 500;
+    
 }
 .nav-menu li{
     
@@ -76,3 +94,49 @@
     background: red;
     color: white;
 }
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-toggle {
+      display: flex;
+    }
+  
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: white;
+      padding: 20px 0;
+    }
+  
+    .nav-menu.open {
+      display: flex;
+    }
+  
+    .nav-menu li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .nav-login-cart {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav-logo p {
+      font-size: 24px;
+    }
+  
+    .nav-toggle .hamburger {
+      width: 20px;
+    }
+  
+    .nav-menu li a {
+      font-size: 16px;
+    }
+  }

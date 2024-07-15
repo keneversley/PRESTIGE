@@ -1,3 +1,18 @@
-.min-h{
+/* .min-h{
     min-height: 100vh;
-}
+} */
+
+/* HeroImage.css */
+.hero-image-container {
+    min-height: 100vh;
+    max-width: 800px; /* Adjust the max width as needed */
+    margin: 10px auto;
+    height: 300px; /* Adjust the height as needed */
+  }
+  
+  .hero-image {
+    width: 80%;
+    height: 50%;
+    object-fit: cover; /* Adjust this property as needed (cover, contain, fill, etc.) */
+  }
+  
