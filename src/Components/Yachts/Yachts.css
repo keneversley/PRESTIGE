@@ -1,3 +1,10 @@
+.yachts-img {
+   width: 200px;
+   height: 25px; 
+}
+
+
+
 .yachts{
     display: flex;
     flex-direction: column;

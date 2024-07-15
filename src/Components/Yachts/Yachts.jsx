@@ -3,6 +3,7 @@ import "./Yachts.css";
 import yachts from "../Assets/yachts";
 import Item from "../item/item";
 
+
 export const Yachts = () => {
   return (
     <div className="yachts">
