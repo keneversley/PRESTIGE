@@ -1,0 +1,50 @@
+/* .yachts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .yacht-card {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .yacht-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  } */
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  .yachts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .yacht-card {
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .yacht-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .yacht-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: opacity 0.3s;
+  }
+  
+  .yacht-card:hover .yacht-image {
+    opacity: 0.8;
+  }
+  
