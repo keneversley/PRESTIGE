@@ -155,6 +155,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './style.css'; // Adjust path as necessary
+import VillaMira from './VillaMira';
+import villaMira from '../Assets/6_VillaMira';
 
 
 const Mansions = () => {
@@ -243,6 +245,21 @@ const Mansions = () => {
           </Slider>
         </div>
       </div>
+
+      <div className="section-container">
+  <div className="text-container">
+    <p className="bold-underline">Villa Mira</p>
+    <h1 className="center-bold">6 bedrooms 4.5 Bathrooms in Palm Island</h1>
+  </div>
+  <div className="images-container">
+    <Slider {...settings}>
+      {villaMira.map((mira) => (
+        <VillaMira key={mira.id} mira={mira} />
+      ))}
+    </Slider>
+  </div>
+</div>
+
     </div>
   );
 };
