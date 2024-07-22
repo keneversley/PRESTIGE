@@ -53,5 +53,106 @@
   text-align: center;
   font-weight: bold;
 }
+.villaceline-card {
+  width: 100%; /* Take full width of the container */
+  height: 400px; /* Adjust height to fit design */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better appearance */
+}
 
+.villaceline-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.villaceline-card p {
+  margin-top: 8px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.villaceline-container {
+  display: flex;
+  flex-wrap: nowrap; /* Ensure items are in a single row */
+  overflow: hidden; /* Hide overflowing content */
+  position: relative; /* Needed for positioning arrows */
+  padding: 16px;
+}
+
+.villaceline-card {
+  width: 100%; /* Take full width of the container */
+  height: 400px; /* Adjust height as needed */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better appearance */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.villaceline-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.villaceline-card.expanded {
+  width: 100%; /* Ensure expanded card fits the container width */
+  height: auto; /* Adjust height automatically */
+  transform: scale(1.2); /* Slightly scale the image */
+}
+
+.villaceline-image {
+  width: 100%;
+  height: 100%; /* Ensure image covers the card */
+  object-fit: cover;
+}
+
+.villaceline-card h3 {
+  margin: 8px;
+  font-size: 1.2em;
+}
+
+.villaceline-card p {
+  margin: 8px;
+  color: #666;
+  text-align: center; /* Center-align text */
+}
+
+/* Customize arrow colors and positions */
+.slick-prev:before,
+.slick-next:before {
+  color: black; /* Arrow color */
+  font-size: 24px; /* Arrow size */
+}
+
+/* Adjust position of the previous arrow */
+.slick-prev {
+  left: 10px;
+}
+
+/* Adjust position of the next arrow */
+.slick-next {
+  right: 10px;
+}
+
+/* Style dots */
+.slick-dots li button:before {
+  color: black; /* Dot color */
+}
+
+/* Style active dot */
+.slick-dots .slick-active button:before {
+  color: red; /* Active dot color */
+}
+.images-container {
+  width: 100%; /* Ensure it takes the full width */
+  position: relative; /* Needed for positioning arrows */
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px; /* Adjust as needed */
+}
 

@@ -1,0 +1,131 @@
+.villaluna-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 16px;
+  }
+  
+  .villaluna-card {
+    width: 200px; /* Adjust the width to make images smaller */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+  
+  .villaluna-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .villaluna-card.expanded {
+    width: 400px; /* Adjust to desired expanded width */
+    height: auto; /* Ensure height adjusts automatically */
+    transform: scale(1.2); /* Slightly scale the image */
+  }
+  
+  .villaluna-image {
+    width: 100%;
+    height: auto; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
+  .villaluna-card h3 {
+    margin: 8px;
+    font-size: 1.2em;
+  }
+  
+  .villaluna-card p {
+    margin: 8px;
+    color: #666;
+  }
+  
+  .villaluna-bold-underline {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 50px; /* Adjust the size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+    text-align: center;
+  }
+  
+  .villaluna-bold {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .text-container {
+    flex: 1;
+    padding-right: 16px;
+  }
+  
+  .images-container {
+    flex: 0 0 70%; /* Adjust as needed for desired image container width */
+    max-width: 70%; /* Ensure container doesn't exceed this width */
+  }
+  
+  .bold-underline {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 50px; /* Adjust the size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+  }
+  
+  .center-bold {
+    font-weight: bold;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: black; /* Customize arrow colors */
+  }
+  
+  .villaceline-card,
+  .blockchain-card,
+  .oasis-card,
+  .villaluna-card {
+    width: 100%; /* Take full width of the container */
+    height: 400px; /* Adjust height to fit design */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better appearance */
+  }
+  
+  .villaceline-card img,
+  .blockchain-card img,
+  .oasis-card img,
+  .villaluna-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .villaluna-card {
+    width: 100%; /* Take full width of the container */
+    height: 400px; /* Adjust height to fit design */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better appearance */
+  }
+  
+  .villaluna-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .villaluna-card p {
+    margin-top: 8px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  

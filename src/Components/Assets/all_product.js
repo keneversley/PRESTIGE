@@ -147,6 +147,14 @@ import Oasis_Entrance3 from "./Oasis84.jpg";
 import Oasis_Entrance4 from "./Oasis85.jpg";
 import Oasis_Entrance5 from "./Oasis86.jpg";
 import Oasis_Entrance6 from "./Oasis87.jpg";
+import Luna_backyard1 from "./Luna1.jpg";
+import Luna_backyard2 from "./Luna2.jpg";
+import Luna_backyard3 from "./Luna4.jpg";
+import Luna_backyard4 from "./Luna6.jpg";
+import Luna_backyard5 from "./Luna7.jpg";
+import Luna_backyard6 from "./Luna8.jpg";
+import Luna_Bedroom1  from "./Luna9.jpg";
+
 
 
 let all_product = [
@@ -1126,6 +1134,56 @@ let all_product = [
     name: " Front lawn side view  ",
     category: "Oasis", 
     image: Oasis_Entrance6 ,  
+
+},
+{
+    id: 152,
+    name: " Backyard night view with pool and chairs  ",
+    category: "Luna", 
+    image: Luna_backyard1 ,  
+
+},
+
+{
+    id: 153,
+    name: " Backyard night view with pool and chairs side view ", 
+    category: "Luna", 
+    image: Luna_backyard2 ,  
+
+},
+{
+    id: 154,
+    name: " Night view with pool  ", 
+    category: "Luna", 
+    image: Luna_backyard3 ,  
+
+},
+{
+    id: 155,
+    name: " Back Patio Day View  ", 
+    category: "Luna", 
+    image: Luna_backyard4 ,  
+
+},
+{
+    id: 156,
+    name: " Back Patio Dinning area   ", 
+    category: "Luna", 
+    image: Luna_backyard5 ,  
+
+},
+{
+    id: 157,
+    name: " Back Patio Dinning area side view    ", 
+    category: "Luna", 
+    image: Luna_backyard6 ,  
+
+},
+{
+    id: 158,
+    name: " Bedroom 1   ", 
+    category: "Luna", 
+    image: Luna_Bedroom1 ,  
 
 },
 ];
