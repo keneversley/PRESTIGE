@@ -159,7 +159,7 @@ import './style.css'; // Adjust path as necessary
 
 const Mansions = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -171,7 +171,7 @@ const Mansions = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {
@@ -204,7 +204,7 @@ const Mansions = () => {
 
       <div className="section-container">
         <div className="text-container">
-          <p className="bold-underline">Manor</p>
+          <p className="bold-underline">Blockchain Manor</p>
           <h1 className="blockchain-bold">6 bedrooms 4 Bathrooms in North Miami</h1>
         </div>
         <div className="images-container">
