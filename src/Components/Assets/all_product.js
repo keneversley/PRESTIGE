@@ -195,6 +195,65 @@ import Mira_night2 from "./Mira39.jpg";
 import Mira_night3 from "./Mira40.jpg";
 import Mira_night4 from "./Mira41.jpg";
 import Mira_night5 from "./Mira42.jpg";
+import Pent_balc1 from "./penthousebalcony1.JPG";
+import Pent_balc2 from "./penthousebalcony2.JPG";
+import Pent_balc3 from "./penthousebalcony3.JPG";
+import Pent_balc4 from "./penthousebalcony4.JPG";
+import Pent_balc5 from "./penthousebalcony6.JPG";
+import Pent_bedroom1 from "./penthousebr7.JPG";
+import Pent_bedroom2 from "./penthousebr8.JPG";
+import Pent_stairs1 from "./penthousebrstairs.JPG";
+import Pent_sink1 from "./penthousedining1.JPG";
+import Pent_living1 from "./penthouseinside1.JPG";
+import Pent_bedroom3 from "./penthousebr5.JPG";
+import Pent_bedroom4 from "./penthousebr6.JPG";
+import Pent_kitchen1 from "./penthousekitchen1.JPG";
+import Pent_living2 from "./penthouselvnrm3.JPG";
+import Pent_stove1 from "./penthousesink3.JPG";
+import Pent_balc6 from "./penthousesinkview.JPG";
+import Pent_table1 from "./penthousetable1.JPG";
+import Granada_bkyrd1 from "./Granadabackyard15.jpg";
+import Granada_bathroom1 from "./Granadabathroom1.jpg";
+import Granada_bathroom2  from "./Granadabathroom2.jpg";
+import Granada_bathroom3 from "./Granadabathroom3.jpg";
+import Granada_bedroom4 from "./Granadabdrm4.jpg";
+import Granada_bathroom5 from "./Granadabathroom5.jpg";
+import Granada_bathroom6 from "./Granadabathroom6.jpg";
+import Granada_bathroom7 from "./Granadabathroom7.jpg";
+import Granada_bathroom8 from "./Granadabathroom8.jpg";
+import Granada_bedroom5 from "./Granadabdrm9.jpg";
+import Granada_bedroom6 from "./Granadabdrm8.jpg";
+import Granada_bathroom9 from "./Granadabdrm7.jpg";
+import Granada_bedroom7 from "./Granadabdrm5.jpg";
+import Granada_bedroom8 from "./Granadabdrm10.jpg";
+import Granada_bedroom9 from "./Granadabdrm11.jpg";
+import Granada_bedroom10 from "./Granadabdrm12.jpg";
+import Granada_bedroom11 from "./Granadabdrm13.jpg";
+import Granada_bedroom12 from "./Granadabdrm15.jpg";
+import Granada_bedroom13 from "./Granadabdrm20.jpg";
+import Granada_bedroom14 from "./Granadabdrm21.jpg";
+import Granada_bedroom15 from "./Granadabdrm22.jpg";
+import Granada_bedroom16 from "./Granadabdrm23.jpg";
+import Granada_bedroom17 from "./Granadabdrm24.jpg";
+import Granada_bedroom18 from "./Granadabdrm25.jpg";
+import Granada_bedroom19 from "./Granadabdrm26.jpg";
+import Granada_bedroom20 from "./Granadabdrm28.jpg";
+import Granada_backyard2 from "./Granadabkyd1.jpg";
+import Granada_backyard1 from "./Granadabkyd2.jpg";
+import Granada_backyard3 from "./Granadabkyd3.jpg";
+import Granada_backyard4 from "./Granadabkyd4.jpg";
+import Granada_backyard5 from "./Granadabkyd5.jpg";
+import Granada_backyard6 from "./Granadabkyd6.jpg";
+import Granada_backyard7 from "./Granadabkyd10.jpg";
+import Granada_closet1 from "./Granadacloset1.jpg";
+import Granada_dine1 from "./Granadadine1.jpg";
+import Granada_dine2 from "./Granadadine2.jpg";
+import Granada_dine3 from "./Granadadine6.jpg";
+import Granada_dine4 from "./Granadadine9.jpg";
+import Granada_house1 from "./Granadahouse1.jpg";
+import Granada_house2 from "./Granadahouse2.jpg";
+
+
 
 
 let all_product = [
@@ -1515,6 +1574,425 @@ let all_product = [
     image: Mira_night5,     
 
 },
+{
+    id: 199,
+    name: " Balcony night side view",        
+    category: "Penthouse", 
+    image: Pent_balc1,     
+
+},
+{
+    id: 200,
+    name: " Balcony night view of the city",        
+    category: "Penthouse", 
+    image: Pent_balc2,     
+
+},
+{
+    id: 201,
+    name: " Balcony night view with hot tub ",        
+    category: "Penthouse", 
+    image: Pent_balc3,     
+
+},
+{
+    id: 202,
+    name: " Balcony day view ",        
+    category: "Penthouse", 
+    image: Pent_balc4,     
+
+},
+{
+    id: 203,
+    name: " Balcony with hot tub and city  ",        
+    category: "Penthouse", 
+    image: Pent_balc5,     
+
+},
+{
+    id: 204,
+    name: " Bedroom with hot tub and city  ",        
+    category: "Penthouse", 
+    image: Pent_bedroom1,     
+
+},
+{
+    id: 205,
+    name: " Bedroom with hot tub view  ",        
+    category: "Penthouse", 
+    image: Pent_bedroom2,     
+
+},
+{
+    id: 206,
+    name: " Stairs with lights view  ",        
+    category: "Penthouse", 
+    image: Pent_stairs1,     
+
+},
+{
+    id: 207,
+    name: " sink view  ",        
+    category: "Penthouse", 
+    image: Pent_sink1,     
+
+},
+{
+    id: 208,
+    name: " Open floor view  ",        
+    category: "Penthouse", 
+    image: Pent_living1,     
+
+},
+{
+    id: 209,
+    name: " Hot tub view  ",        
+    category: "Penthouse", 
+    image: Pent_bedroom3,     
+
+},
+{
+    id: 210,
+    name: " Second bedroom view ",         
+    category: "Penthouse", 
+    image: Pent_bedroom4,     
+
+},
+{
+    id: 211,
+    name: " Kitchen with washer and dryer ",         
+    category: "Penthouse", 
+    image: Pent_kitchen1,     
+
+},
+{
+    id: 212,
+    name: " Living room with cofee table ",         
+    category: "Penthouse", 
+    image: Pent_living2,     
+
+},
+{
+    id: 213,
+    name: " Stove counter top ",         
+    category: "Penthouse", 
+    image: Pent_stove1,     
+
+},
+{
+    id: 214,
+    name: " Stove counter top ",         
+    category: "Penthouse", 
+    image: Pent_stove1,     
+
+},
+{
+    id: 215,
+    name: " Outside sink and balcony view ",         
+    category: "Penthouse", 
+    image: Pent_balc6,     
+
+},
+{
+    id: 216,
+    name: " Outside table and balcony view ",         
+    category: "Penthouse", 
+    image: Pent_table1,     
+
+},
+{
+    id: 217,
+    name: " Outside table and pool night view",         
+    category: "Granada", 
+    image: Granada_bkyrd1,     
+
+},
+{
+    id: 218,
+    name: " Bathroom 1 with open shower",         
+    category: "Granada", 
+    image: Granada_bathroom1,     
+
+},
+{
+    id: 219,
+    name: " Bathroom 1 full ",         
+    category: "Granada", 
+    image: Granada_bathroom2,     
+
+},
+{
+    id: 220,
+    name: " Bathroom 2 with Shower ",         
+    category: "Granada", 
+    image: Granada_bathroom3,     
+
+},
+{
+    id: 221,
+    name: " Bedroom with white covers ",         
+    category: "Granada", 
+    image: Granada_bedroom4,      
+
+},
+{
+    id: 222,
+    name: " Bathroom with sliding shower ",         
+    category: "Granada", 
+    image: Granada_bathroom5,      
+
+},
+{
+    id: 223,
+    name: " Bathroom with wood tile ",         
+    category: "Granada", 
+    image: Granada_bathroom6,      
+
+},
+{
+    id: 224,
+    name: " Bathroom with white tile ",         
+    category: "Granada", 
+    image: Granada_bathroom7,      
+
+},
+{
+    id: 225,
+    name: " Bathroom with wood tile side view ",         
+    category: "Granada", 
+    image: Granada_bathroom8,      
+
+},
+{
+    id: 226,
+    name: " Bedroom with wooden dresser ",         
+    category: "Granada", 
+    image: Granada_bedroom5,      
+
+},
+{
+    id: 227,
+    name: " Bedroom with wooden dresser side view",         
+    category: "Granada", 
+    image: Granada_bedroom6,      
+
+},
+{
+    id: 228,
+    name: " bathroom with woodenview side view",         
+    category: "Granada", 
+    image: Granada_bathroom9,      
+
+},
+{
+    id: 229,
+    name: " Bedroom with whitesheets side view",          
+    category: "Granada", 
+    image: Granada_bedroom7,      
+
+},
+{
+    id: 230,
+    name: " Bedroom with painting and tv ",          
+    category: "Granada", 
+    image: Granada_bedroom8,      
+
+},
+{
+    id: 231,
+    name: " Bedroom with bathroom view ",          
+    category: "Granada", 
+    image: Granada_bedroom9,      
+
+},
+{
+    id: 232,
+    name: " Bedroom with back view and tv ",          
+    category: "Granada", 
+    image: Granada_bedroom10,      
+
+},
+{
+    id: 233,
+    name: " Bedroom with front view ",          
+    category: "Granada", 
+    image: Granada_bedroom11,      
+
+},
+{
+    id: 234,
+    name: " Bedroom with front view with window ",          
+    category: "Granada", 
+    image: Granada_bedroom12,      
+
+},
+{
+    id: 235,
+    name: " Bedroom with grewy sheets ",          
+    category: "Granada", 
+    image: Granada_bedroom13,      
+
+},
+{
+    id: 236,
+    name: " Bedroom with grewy sheets front view",          
+    category: "Granada", 
+    image: Granada_bedroom14,      
+
+},
+{
+    id: 237,
+    name: " Bedroom with white sheets view",          
+    category: "Granada", 
+    image: Granada_bedroom15,      
+
+},
+
+{
+    id: 238,
+    name: " Bedroom with white sheets front view",          
+    category: "Granada", 
+    image: Granada_bedroom16,      
+
+},
+{
+    id: 239,
+    name: " Bedroom with couch",          
+    category: "Granada", 
+    image: Granada_bedroom17,      
+
+},
+{
+    id: 240,
+    name: " Bedroom with couch side view",          
+    category: "Granada", 
+    image: Granada_bedroom18,      
+
+},
+{
+    id: 241,
+    name: " Bedroom with couch back view",          
+    category: "Granada", 
+    image: Granada_bedroom19,      
+
+},
+{
+    id: 242,
+    name: " Bedroom with couch  view",          
+    category: "Granada", 
+    image: Granada_bedroom20,      
+
+},
+{
+    id: 243,
+    name: " Back of the house with pool and layout ",          
+    category: "Granada", 
+    image: Granada_backyard2,      
+
+},
+
+{
+    id: 244,
+    name: " Back of the house with pool and layout zoom in look  ",          
+    category: "Granada", 
+    image: Granada_backyard1,      
+
+},
+{
+    id: 245,
+    name: " Back of the house with pool side view  ",          
+    category: "Granada", 
+    image: Granada_backyard3,      
+
+},
+{
+    id: 246,
+    name: "  pool view  ",          
+    category: "Granada", 
+    image: Granada_backyard4,      
+
+},
+
+{
+    id: 247,
+    name: "  pool view  ",          
+    category: "Granada", 
+    image: Granada_backyard4,      
+
+},
+{
+    id: 248,
+    name: "  pool side view  ",          
+    category: "Granada", 
+    image: Granada_backyard5,      
+
+},
+{
+    id: 249,
+    name: "  pool front view  ",          
+    category: "Granada", 
+    image: Granada_backyard6,      
+
+},
+{
+    id: 250,
+    name: "  pool front view  ",          
+    category: "Granada", 
+    image: Granada_backyard7,      
+
+},
+{
+    id: 251,
+    name: "  Closet view  ",          
+    category: "Granada", 
+    image: Granada_closet1,       
+
+},
+{
+    id: 252,
+    name: "  Dine area  ",          
+    category: "Granada", 
+    image: Granada_dine1,       
+
+},
+{
+    id: 253,
+    name: "  Dine area 2  ",          
+    category: "Granada", 
+    image: Granada_dine2,       
+
+},
+{
+    id: 254,
+    name: " Open Dine area  ",          
+    category: "Granada", 
+    image: Granada_dine3,       
+
+},
+{
+    id: 255,
+    name: " Open Dine area  ",          
+    category: "Granada", 
+    image: Granada_dine4,       
+
+},
+{
+    id: 256,
+    name: " House daytime view  ",          
+    category: "Granada", 
+    image: Granada_house1,       
+
+},
+{
+    id: 257,
+    name: " House daytime side view  ",          
+    category: "Granada", 
+    image: Granada_house2,       
+
+},
+
+
+
 
 
 

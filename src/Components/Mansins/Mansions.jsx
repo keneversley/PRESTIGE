@@ -157,6 +157,12 @@ import 'slick-carousel/slick/slick-theme.css';
 import './style.css'; // Adjust path as necessary
 import VillaMira from './VillaMira';
 import villaMira from '../Assets/6_VillaMira';
+import './Mansions.css'; // Adjust path as
+import penthouse from '../Assets/2_PenthousePoblado';
+import PenthousePoblado from './PenthousePoblado';
+import granada from '../Assets/10_VillaGranada';
+import VillaGranada from './VillaGranada';
+
 
 
 const Mansions = () => {
@@ -259,6 +265,35 @@ const Mansions = () => {
     </Slider>
   </div>
 </div>
+
+<div className="section-container">
+        <div className="text-container">
+          <p className="bold-underline">Penthouse Poblado</p>
+          <h1 className="center-bold">2 bedrooms 4 bathroons in Columbia</h1>
+        </div>
+        <div className="images-container">
+          <Slider {...settings}>
+            {penthouse.map((pent) => (
+              <PenthousePoblado key={pent.id} pent={pent} />
+            ))}
+          </Slider>
+        </div>
+      </div>
+
+
+      <div className="section-container">
+        <div className="text-container">
+          <p className="bold-underline">Villa Granada</p>
+          <h1 className="center-bold">10 bedrooms  10 bathrooms in Coral Gables </h1>
+        </div>
+        <div className="images-container">
+          <Slider {...settings}>
+            {granada.map((granada) => (
+              <VillaGranada key={granada.id} granada={granada} />
+            ))}
+          </Slider>
+        </div>
+      </div>
 
     </div>
   );
