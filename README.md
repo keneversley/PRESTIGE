@@ -1,7 +1,9 @@
 https://www.prestigeglobalconcierge.com
-<span style="color: black; font-weight: bold;">
-Prestige Global Concierge is a company that offers personalized services to make your life easier and more enjoyable. They specialize in luxury concierge and lifestyle management, providing assistance with various aspects of daily life and special occasions. Their services include arranging travel plans, securing reservations at exclusive restaurants, organizing unique experiences, and handling daily errands. By leveraging their extensive network of luxury partners, they ensure that clients receive exceptional and tailored services that cater to their individual preferences and needs.
-</span>
+
+
+
+**Prestige Global Concierge is a company that offers personalized services to make your life easier and more enjoyable. They specialize in luxury concierge and lifestyle management, providing assistance with various aspects of daily life and special occasions.**
+
 
 
 <img width="1373" alt="Screenshot 2025-03-10 at 5 20 53 PM" src="https://github.com/user-attachments/assets/001ccbe8-dbbc-40c6-aef5-8765bdcfa9a2" />
